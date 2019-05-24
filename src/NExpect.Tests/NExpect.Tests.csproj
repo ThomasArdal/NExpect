@@ -1,16 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <!-- <TargetFrameworks>netcoreapp2.0</TargetFrameworks> -->
-    <TargetFrameworks>net452</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
     <Configurations>Debug;Release;BuildForRelease</Configurations>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="microsoft.net.test.sdk" Version="16.0.1" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-preview.2" />
     <PackageReference Include="NSubstitute" Version="4.1.0" />
     <PackageReference Include="nunit" Version="3.11.0" />
     <PackageReference Include="nunit3testadapter" Version="3.13.0" />
-    <PackageReference Include="PeanutButter.DuckTyping" Version="1.2.267" />
-    <PackageReference Include="PeanutButter.RandomGenerators" Version="1.2.253" />
+    <PackageReference Include="PeanutButter.DuckTyping" Version="1.2.281" />
+    <PackageReference Include="PeanutButter.RandomGenerators" Version="1.2.281" />
+    <PackageReference Include="PeanutButter.Utils" Version="1.2.281" />
     <PackageReference Include="system.valuetuple" Version="4.4.0" />
   </ItemGroup>
   <ItemGroup>

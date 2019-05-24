@@ -21,6 +21,7 @@
       <ProjectReference Include="..\NExpect\NExpect.csproj" />
     </ItemGroup>
     <ItemGroup>
+      <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-preview.2" />
       <PackageReference Include="NSubstitute" Version="4.1.0" />
     </ItemGroup>
 </Project>
